@@ -109,11 +109,15 @@ git clone git@github.com:fpsapc/AppleChemicals.git
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Salman Ahmad Khan**
-👤 **Daniel Falcon**
 
 - GitHub: [@githubhandle](https://github.com/fpsapc)
 - Twitter: [@twitterhandle](https://twitter.com/salmanahmadkhan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/salmanahmad1987)
+
+👤 **Daniel Falcon**
+
+- GitHub: [@Danfall369](https://github.com/Danfall369)
+- Twitter: [@Danfall369](https://twitter.com/Danfall369)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
