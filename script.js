@@ -33,16 +33,18 @@ if (localStorage.getItem('books')) {
 
 // function add button
 addBtn.addEventListener('click', () => {
-  const title = titleInput.value;
-  const author = authorInput.value;
+  if (titleInput.value !== '' && authorInput.value !== '') {
+    const title = titleInput.value;
+    const author = authorInput.value;
 
-  books.push({ title, author });
-  localStorage.setItem('books', JSON.stringify(books));
+    books.push({ title, author });
+    localStorage.setItem('books', JSON.stringify(books));
 
-  titleInput.value = '';
-  authorInput.value = '';
+    titleInput.value = '';
+    authorInput.value = '';
 
-  displayBooks();
+    displayBooks();
+  }
 });
 
 // remove book from the collection
