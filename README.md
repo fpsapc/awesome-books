@@ -79,8 +79,8 @@ Java Script
 
 - [Live Demo Link](https://fpsapc.github.io/awesome-books)
 
-- [Live Demo Mobile]:
-  <img src="./Assets/mobile.gif" alt="mobile live" />
+<p>Mobil Version:</p>
+<img src="./Assets/mobile.gif" alt="mobile live"/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
