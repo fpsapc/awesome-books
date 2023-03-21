@@ -4,13 +4,16 @@
 }
 
 #firstBookContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url(./Assets/libreriaVacia2.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+}
+
+#TitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .listStyle {
@@ -22,8 +25,20 @@
   height: 3rem;
   background-image: url(./Assets/Lomo-del-libro.jpg);
   background-repeat: no-repeat;
+  font-family: "Gentium Book Plus", serif;
+  font-size: 20px;
 }
 
 .removeBtn {
+  width: 25%;
   height: 100%;
+  background-color: #855e42;
+  cursor: pointer;
+}
+
+#addBtn {
+  width: 11rem;
+  height: 2rem;
+  background-color: #855e42;
+  cursor: pointer;
 }
