@@ -27,7 +27,7 @@ class AwesomeBooks {
     this.bookList.innerHTML = '';
     this.books.forEach((book, index) => {
       const li = document.createElement('li');
-      li.style.listStyle = 'none';
+      li.classList.add('listStyle');
       li.innerHTML = `"${book.title}" by ${book.author}`;
       const removeBtn = document.createElement('button');
       removeBtn.textContent = 'Remove';
