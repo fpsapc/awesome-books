@@ -16,21 +16,41 @@
   </head>
 
   <body>
+    <nav id="navBar">
+      <p class="logo">Awesome Books</p>
+      <ul class="navList">
+        <li id="list" class="listItem">list</li>
+        <li id="addNew" class="listItem">Add new</li>
+        <li id="contact" class="listItem">Contact</li>
+      </ul>
+    </nav>
     <main>
       <section id="firstBookContainer">
         <div id="TitleContainer">
-          <h1 class="Title">Awesome Books</h1>
+          <h1 class="Title">All Awesome Books</h1>
           <ul id="bookList"></ul>
-          <form action="#">
-            <br><hr class="line">
-            <h2>Add a new book</h2>
-            <input type="text" id="title" placeholder="title" class="input"/><br /><br />
-            <input type="text" id="author" placeholder="author" class="input"/><br /><br />
-            <button type="button" id="addBtn">Add</button>
-          </form>
+          <br>
         </div>
       </section>
+      <section >
+          <form id="addBook" action="#" class="addBook">
+            <h2>Add a new book</h2>
+            <input type="text" id="title" placeholder="title" class="input"/>
+            <input type="text" id="author" placeholder="author" class="input"/>
+            <button type="button" id="addBtn">Add</button>
+          </form>
+      </section>
+      <section id="contactInfo">
+        <h2>Contact Information</h2>
+        <p>Do have any questions or you just want to say hello!?<br>You can reach out to us!</p>
+        <ul>
+          <li>Our email: fpsapc@gmail.com</li>
+          <li>Our Phone#: +92301-4497147</li>
+          <li>Our Address: District Sheikhupura, Punjab, Pakistan.</li>
+        </ul>
+      </section>
     </main>
+    <footer id="footer">Copyrights &copy; All rights reserved</footer>
     <script src="script.js"></script>
   </body>
 </html>

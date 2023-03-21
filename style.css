@@ -3,6 +3,37 @@
   padding: 0;
 }
 
+#navBar {
+  width: 100vw;
+  height: 3em;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: black;
+}
+
+.listItem {
+  list-style: none;
+  padding-right: 1em;
+  margin-right: 1em;
+  border-right: 2px solid black;
+}
+
 #firstBookContainer {
   background-image: url('./Assets/libreriaVacia2.png');
   background-repeat: no-repeat;
@@ -11,9 +42,16 @@
 }
 
 #TitleContainer {
+  display: none;
+}
+
+#TitleContainer.active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
 }
 
 .listStyle {
@@ -36,19 +74,54 @@
   cursor: pointer;
 }
 
-.line {
+.addBook {
+  display: none;
+}
+
+.addBook.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
   border: 2px solid black;
-  margin-bottom: 10px;
-  width: 166px;
+  padding: 20px 0;
+  height: 80vh;
 }
 
 .input {
-  width: 168px;
+  width: 18rem;
+  height: 1.5rem;
+  border: 2px solid black;
 }
 
 #addBtn {
-  width: 11rem;
+  width: 5rem;
   height: 2rem;
   background-color: #855e42;
   cursor: pointer;
+  border-radius: 6px;
+}
+
+#contactInfo {
+  display: none;
+}
+
+#contactInfo.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px 0;
+  height: 80vh;
+}
+
+#footer {
+  width: 100vw;
+  height: 3em;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
