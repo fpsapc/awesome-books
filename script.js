@@ -5,6 +5,10 @@ const addBook = document.getElementById('addBook');
 const contact = document.getElementById('contact');
 const contactInfo = document.getElementById('contactInfo');
 
+window.addEventListener('load', () => {
+  listContainer.classList.add('active');
+});
+
 list.addEventListener('click', () => {
   listContainer.classList.add('active');
   addBook.classList.remove('active');
@@ -22,6 +26,10 @@ contact.addEventListener('click', () => {
   listContainer.classList.remove('active');
   addBook.classList.remove('active');
 });
+
+const currentDate = new Date();
+const currentTime = document.getElementById('currentTime');
+currentTime.innerHTML = currentDate.toString();
 
 // Define class AwesomeBooks
 class AwesomeBooks {

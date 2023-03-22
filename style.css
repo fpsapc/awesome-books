@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Cutive", serif;
+  box-sizing: border-box;
 }
 
 #navBar {
@@ -39,6 +40,10 @@
   border-right: 2px solid black;
 }
 
+.lastItem {
+  border: none;
+}
+
 .navBtn {
   background: none;
   border: none;
@@ -49,6 +54,14 @@
 .navBtn:hover {
   color: #855e42;
   transform: scale(1.1);
+}
+
+#currentTime {
+  height: 2em;
+  width: 36em;
+  position: absolute;
+  right: 0;
+  top: 4em;
 }
 
 #firstBookContainer {
@@ -68,7 +81,8 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 80vh;
+  height: 87vh;
+  gap: 20px;
 }
 
 .listStyle {
@@ -76,7 +90,7 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  width: 25rem;
+  width: 40rem;
   height: 3rem;
   background: rgba(255, 255, 255, 0.6);
   background-image: url(./Assets/book2.png);
@@ -111,12 +125,12 @@
   gap: 20px;
   border: 2px solid black;
   padding: 20px 0;
-  height: 80vh;
+  height: 87vh;
 }
 
 .input {
   width: 18rem;
-  height: 1.5rem;
+  height: 2rem;
   border: 2px solid black;
 }
 
@@ -147,7 +161,7 @@
   justify-content: center;
   gap: 24px;
   padding: 20px 0;
-  height: 80vh;
+  height: 87vh;
 }
 
 #footer {
