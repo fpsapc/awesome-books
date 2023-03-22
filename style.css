@@ -1,3 +1,54 @@
-body {
-  margin-left: 90px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#firstBookContainer {
+  background-image: url('./Assets/libreriaVacia2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#TitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 25rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.6);
+  background-repeat: no-repeat;
+  font-family: "Gentium Book Plus", serif;
+  font-size: 20px;
+}
+
+.removeBtn {
+  width: 25%;
+  height: 100%;
+  background-color: #855e42;
+  cursor: pointer;
+}
+
+.line {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  width: 166px;
+}
+
+.input {
+  width: 168px;
+}
+
+#addBtn {
+  width: 11rem;
+  height: 2rem;
+  background-color: #855e42;
+  cursor: pointer;
 }
