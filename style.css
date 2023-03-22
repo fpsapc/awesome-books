@@ -16,6 +16,11 @@
   margin-left: 24px;
 }
 
+.logoIcon {
+  width: 2%;
+  transform: translateX(-29rem);
+}
+
 .navList {
   display: flex;
   justify-content: flex-end;
@@ -34,8 +39,20 @@
   border-right: 2px solid black;
 }
 
+.navBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.navBtn:hover {
+  color: #855e42;
+  transform: scale(1.1);
+}
+
 #firstBookContainer {
-  background-image: url('./Assets/libreriaVacia2.png');
+  background-image: url("./Assets/libreriaVacia2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,9 +79,13 @@
   width: 25rem;
   height: 3rem;
   background: rgba(255, 255, 255, 0.6);
+  background-image: url(./Assets/book2.png);
   background-repeat: no-repeat;
+  background-position: left;
+  background-size: 10%;
   font-family: "Gentium Book Plus", serif;
   font-size: 20px;
+  padding-left: 70px;
 }
 
 .removeBtn {
@@ -76,6 +97,10 @@
 
 .addBook {
   display: none;
+  background-image: url("./Assets/libreriaVacia2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .addBook.active {
@@ -103,8 +128,16 @@
   border-radius: 6px;
 }
 
+.browBook {
+  width: 15%;
+}
+
 #contactInfo {
   display: none;
+  background-image: url("./Assets/libreriaVacia2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #contactInfo.active {
