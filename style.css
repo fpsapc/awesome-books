@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Cutive", serif;
 }
 
 #navBar {
@@ -17,8 +18,7 @@
 }
 
 .logoIcon {
-  width: 2%;
-  transform: translateX(-29rem);
+  width: 8%;
 }
 
 .navList {
@@ -83,7 +83,7 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: 10%;
-  font-family: "Gentium Book Plus", serif;
+  font-family: "Cutive", serif;
   font-size: 20px;
   padding-left: 70px;
 }
